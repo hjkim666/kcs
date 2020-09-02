@@ -1,0 +1,23 @@
+<CSV to DB Table> 
+
+https://www.sqlitetutorial.net/sqlite-import-csv/
+
+sqlite3 test2.db 
+
+sqlite> DROP TABLE IF EXISTS cities;
+
+sqlite> CREATE TABLE cities(
+  name TEXT NOT NULL,
+  population INTEGER NOT NULL 
+);
+
+sqlite> .schema cities
+
+sqlite> SELECT   name, population  FROM  cities;
+
+sqlite> .mode csv
+sqlite> .import  city.csv  cities
+
+sqlite> SELECT * FROM cities limit 10; 
+
+
