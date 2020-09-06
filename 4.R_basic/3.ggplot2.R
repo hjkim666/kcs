@@ -27,6 +27,7 @@ ggplot(data=diamonds, aes(x=carat,y=price,colour=clarity))+
   geom_point() +
   theme_wsj()
 
+stu_df = read.csv('./data/newStudent.csv') 
 g1<-ggplot(data=stu_df, aes(x=height, y=weight, 
                         colour=blood)) +
   geom_point()

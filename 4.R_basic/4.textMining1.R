@@ -30,7 +30,7 @@ library(dplyr)
 useNIADic()
 
 #data load
-txt <- readLines("D:/r_workspace/kcs/data/song.txt")
+txt <- readLines("./data/song.txt")
 head(txt)
 
 #특수문자 제거

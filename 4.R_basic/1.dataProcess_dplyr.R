@@ -121,6 +121,7 @@ mpg %>% group_by(manufacturer) %>%
 ############################
 # summarise practice
 ############################
+mpg <- as.data.frame(ggplot2::mpg)
 mpg %>% group_by(class) %>% 
   summarise(mean = mean(cty)) %>% 
   arrange(desc(mean)) %>% 
