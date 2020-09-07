@@ -21,3 +21,6 @@
 ### R - Rtools 설치 관련 
 - https://cran.r-project.org/bin/windows/Rtools/index.html
 - Rtools35.exe 다운로드/실행
+
+### RSQLite 참고사이트 
+- https://www.datacamp.com/community/tutorials/sqlite-in-r
