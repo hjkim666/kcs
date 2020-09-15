@@ -1,0 +1,3 @@
+from sklearn.tree.export import export_text
+tree_rules = export_text(tree, feature_names=list(cancer.feature_names))
+print(tree_rules)
