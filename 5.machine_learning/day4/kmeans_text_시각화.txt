@@ -1,0 +1,6 @@
+plt.scatter(X[:,0], X[:,1], c=k.labels_)
+plt.scatter(k.cluster_centers_[:,0], k.cluster_centers_[:,1], c='red', s=200)
+for index, c in enumerate(k.cluster_centers_):
+    plt.text(c[0], c[1],index, fontsize=20
+             ,horizontalalignment='center',verticalalignment='center')
+plt.show()
